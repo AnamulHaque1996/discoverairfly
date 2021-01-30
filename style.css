@@ -7,7 +7,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background:url("images/bus.png");
+    background:url("images/bg.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
@@ -55,6 +55,10 @@ nav ul li a:hover, a.active{
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
     font-weight: 500;
+    color: aqua;
+}
+.booking-content p{
+    color:navy;
 }
 .booking-form{
     background-color: #fff;
@@ -117,6 +121,15 @@ nav ul li a:hover, a.active{
     color: #fff;
     font-weight: 500;
     background-color:  #52AF3A;
+}
+.buy-done-ticket{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 25px;
+    border-radius: 5px;
+    float: left;
+    width: 400px;
+    height: 300px;
 }
 .amount{
     display: flex;
